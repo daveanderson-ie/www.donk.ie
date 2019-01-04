@@ -19,7 +19,37 @@ body {
 }
 
 .btn-colour-d {
-    color: #212529;
-    background-color: #7cc;
-    border-color: #5bc2c2
+  color: #EBEBEB;
+  background-color: #C947AE;
+  border-color: #C947AE
+}
+
+.btn-colour-d2 {
+  color: #212529;
+  background-color: #5DCB83;
+  border-color: #5DCB83
+}
+
+.btn-colour-o {
+  color: #212529;
+  background-color: #F6CA5D;
+  border-color: #F6CA5D
+}
+
+.btn-colour-n {
+  color: #EBEBEB;
+  background-color: #122E54;
+  border-color: #122E54
+}
+
+.btn-colour-k {
+  color: #212529;
+  background-color: #50B0DE;
+  border-color: #50B0DE
+}
+
+.btn-colour-k2 {
+  color: #212529;
+  background-color: #EB5344;
+  border-color: #EB5344
 }
