@@ -18,6 +18,10 @@ body {
   height: 100%;
 }
 
+.colour-d {
+  color: #C947AE;
+}
+
 .btn-colour-d {
   color: #EBEBEB;
   background-color: #C947AE;
