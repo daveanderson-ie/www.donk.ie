@@ -32,6 +32,8 @@
 
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
   <script>
     window.addEventListener("load", function(){
     window.cookieconsent.initialise({
@@ -763,7 +765,20 @@
 
 								<p>We believe <strong>Simple</strong>, <strong>Reliable</strong> &amp; <strong>Useful</strong> makes life better for all of us.</p>
 
-							</div>
+                <div class="mypanel"></div>
+              </div>
+              
+              <script>
+                fetch('https://hook.integromat.com/fjjyd47f5aq7g4hru9255grrwy3awyjc',
+                {
+                  method: "GET",
+                  headers: { "Content-Type": "application/json"}
+                }).then(function(response){
+                  return response.json();
+                }).then((json) => {
+                  $(".mypanel").html("Join " + json.count + " donkers");
+                }).catch(err => console.error(err));
+              </script>
 
 						</div>
 
@@ -1011,6 +1026,6 @@
 
   <!-- Other scripts -->
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-
+  
 </body>
 </html>
