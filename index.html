@@ -3,60 +3,29 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Ginger Software Development Services Limited" />
+	<meta name="author" content="Donkie" />
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700,800,900|Oswald:600%2C500" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,900&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
+
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<!-- Landing Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="css/donk.css" type="text/css" />
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/fonts/font-awesome/css/font-awesome.css">
-
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/addons/css/typewriter.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/addons/revolution.addon.revealer.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/addons/revolution.addon.revealer.preloaders.css">
-
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
-
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
-  <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#000"
-        },
-        "button": {
-          "background": "transparent",
-          "text": "#f1d600",
-          "border": "#f1d600"
-        }
-      }
-    })});
-    </script>
 
 	<!-- Document Title
 	============================================= -->
-	<title>Donk | Bills Made Simple</title>
-
-	<style>
-		#rev_slider_134_1 .uranus.tparrows{width:50px; height:50px; background:rgba(255,255,255,0)}#rev_slider_134_1 .uranus.tparrows:before{width:50px; height:50px; line-height:50px; font-size:40px; transition:all 0.3s;-webkit-transition:all 0.3s}#rev_slider_134_1 .uranus.tparrows:hover:before{opacity:0.75}
-	</style>
+	<title>Donkie</title>
 
 </head>
 
@@ -68,832 +37,359 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header clearfix">
-
+		<header id="header" class="transparent-header full-header dark no-sticky" data-responsive-class="not-dark">
 			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
 
-				<div class="container clearfix">
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="border-right-0">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
 
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Donk Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Donk Logo"></a>
-					</div><!-- #logo end -->
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu not-dark with-arrows">
 
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
+							<ul class="mr-0 border-0 menu-container">
+								<li class="menu-item"><a class="menu-link" href="#"><div>What we do</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-calendar1"></i>Calendar</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-notebook"></i>Details Book</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-files"></i>Bill Archive</div></a></li>
+									</ul>
+								</li><!-- .mega-menu end -->
+								<li class="menu-item"><a class="menu-link" href="#pricing"><div>Pricing</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>About</div></a></li>
+							</ul>
 
-						<ul>
-							<li class="current"><a href="/"><div>Home</div></a>
-							</li>
-							<!-- <li><a href="#features" data-scrollto="#features"><div>Features</div></a>
-							</li> -->
-							<li><a href="#footer" data-scrollto="#footer"><div>About</div></a>
-							</li>
-							<li><a href="http://app.donk.ie"><div>Login</div></a>
-							</li>
-						</ul>
-					</nav><!-- #primary-menu end -->
+						</nav><!-- #primary-menu end -->
 
+					</div>
 				</div>
-
 			</div>
-
+			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
-
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element revslider-wrap clearfix">
-
-			<!-- START REVOLUTION SLIDER 5.4.8 fullwidth mode -->
-			<div id="rev_slider_134_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
-				<ul>	<!-- SLIDE  -->
-					<li data-index="rs-330" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="include/rs-plugin/demos/assets/images/transparent.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-						<!-- MAIN IMAGE -->
-						<img src="include/rs-plugin/demos/assets/images/transparent.png" data-bgcolor='#24fbbf' style='background:#24fbbf' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-							 id="slide-330-layer-1"
-							 data-x="['center','center','center','center']" data-hoffset="['-1','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['90','90','90','70']"
-										data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="image"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":800,"speed":1000,"frame":"0","from":"rX:90deg;sX:1;sY:1;skY:10px;opacity:0;","to":"o:1;tO:50% 100%;z:-5;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 5;"><img src="include/rs-plugin/demos/assets/images/funky1.jpg" alt="" data-ww="['1200px','1000px','800px','600px']" data-hh="['522px','435','348','261px']" data-no-retina> </div>
-
-						<!-- LAYER NR. 2 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
-							 id="slide-330-layer-4"
-							 data-x="['left','left','left','left']" data-hoffset="['50','50','40','30']"
-							 data-y="['top','top','top','top']" data-voffset="['50','50','40','30']"
-										data-fontsize="['45','40','30','30']"
-							data-lineheight="['45','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"x:-200px;sX:1;sY:1;opacity:0;","to":"o:1;rZ:-2;","ease":"Power4.easeOut"},{"delay":"wait","speed":650,"frame":"999","to":"x:-200px;opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,7,7]"
-							data-paddingright="[20,20,20,20]"
-							data-paddingbottom="[10,10,10,10]"
-							data-paddingleft="[20,20,20,20]"
-
-							style="z-index: 6; white-space: nowrap; font-size: 45px; line-height: 45px; font-weight: 600; color: #24fbbf; letter-spacing: 0px;font-family:Oswald;background-color:rgb(41,5,42);">
-				<div class="rs-looped rs-wave"  data-speed="2" data-angle="0" data-radius="2px" data-origin="50% 50%">
-          MAKE BILLS <span style="color:#df39db;">EASY!</span> </div></div>
-
-						<!-- LAYER NR. 3 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
-							 id="slide-330-layer-5"
-							 data-x="['left','left','left','left']" data-hoffset="['70','70','55','40']"
-							 data-y="['top','top','top','top']" data-voffset="['104','100','80','70']"
-										data-fontsize="['45','40','30','30']"
-							data-lineheight="['45','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"x:200px;sX:1;sY:1;opacity:0;","to":"o:1;rZ:-2;","ease":"Power4.easeOut"},{"delay":"wait","speed":650,"frame":"999","to":"x:200px;opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,7,7]"
-							data-paddingright="[20,20,20,20]"
-							data-paddingbottom="[10,10,10,10]"
-							data-paddingleft="[20,20,20,20]"
-
-							style="z-index: 7; white-space: nowrap; font-size: 45px; line-height: 45px; font-weight: 600; color: #24fbbf; letter-spacing: 0px;font-family:Oswald;background-color:rgb(41,5,42);">
-				<div class="rs-looped rs-wave"  data-speed="2" data-angle="0" data-radius="2px" data-origin="50% 50%">GET <span style="color:#df39db;">DONK</span> TODAY </div></div>
-
-						<!-- LAYER NR. 4 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-330-layer-6"
-							 data-x="['left','left','left','left']" data-hoffset="['806','690','520','260']"
-							 data-y="['top','top','top','top']" data-voffset="['71','70','60','140']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-typewriter='{"lines":"WE%27RE%20TAKING%20THE%20DONKEY%20WORK%20OUT%20OF%20BILLS","enabled":"on","speed":"30","delays":"1%7C100","looped":"on","cursorType":"one","blinking":"on","word_delay":"off","sequenced":"on","hide_cursor":"off","start_delay":"500","newline_delay":"1000","deletion_speed":"20","deletion_delay":"1000","blinking_speed":"500","linebreak_delay":"60","cursor_type":"one","background":"off"}'
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":700,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 8; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #29052a; letter-spacing: 0px;font-family:Oswald;">
-              MANAGING BILLS IS A <br/>PAIN IN THE ASS </div>
-
-						<!-- LAYER NR. 5 -->
-						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
-							 id="slide-330-layer-3"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-200','-220','-250']"
-										data-width="full"
-							data-height="400"
-							data-whitespace="nowrap"
-
-							data-type="shape"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 9;">
-				<div class="tp-element-background" style=" background: url('include/rs-plugin/demos/assets/images/funky_paint-4.png') repeat-x center top; background-size: contain; opacity: 1;"></div> </div>
-
-						<!-- LAYER NR. 6 -->
-						<div class="tp-caption rev-btn  tp-resizeme"
-							 id="slide-330-layer-7"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','30','30','30']"
-										data-fontsize="['25','25','20','20']"
-							data-lineheight="['60','60','50','50']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="button"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"rX:90deg;sX:1;sY:1;opacity:0;","to":"o:1;tO:50% 0%;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(41,5,42);bs:solid;bw:0 0 0 0;"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[3,3,3,3]"
-							data-paddingright="[50,50,40,40]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[50,50,40,40]"
-
-              style="z-index: 10; white-space: nowrap; font-size: 25px; line-height: 60px; font-weight: 600; color: rgba(255,255,255,1); letter-spacing: px;font-family:'Courier New', Courier, monospace;background-color:rgb(223,57,219);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-              SIGN UP NOW </div>
-
-						<!-- LAYER NR. 7 -->
-						<div class="tp-caption   tp-resizeme"
-							 id="slide-330-layer-9"
-							 data-x="['center','center','center','center']" data-hoffset="['170','170','130','130']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['90','70','70','70']"
-										data-fontsize="['40','40','30','30']"
-							data-lineheight="['40','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":1600,"speed":1000,"frame":"0","from":"rX:90deg;opacity:0;","to":"o:1;tO:50% 0%;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,5,5]"
-							data-paddingright="[10,10,10,10]"
-							data-paddingbottom="[0,0,2,2]"
-							data-paddingleft="[10,10,10,10]"
-
-							style="z-index: 11; white-space: nowrap; font-size: 40px; line-height: 40px; font-weight: 600; color: #29052a; letter-spacing: 0px;font-family:'Courier New', Courier, monospace;background-color:rgb(36,251,191);">FREE </div>
-					</li>
-					<!-- SLIDE  -->
-					<li data-index="rs-331" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="include/rs-plugin/demos/assets/images/transparent.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-						<!-- MAIN IMAGE -->
-						<img src="include/rs-plugin/demos/assets/images/transparent.png" data-bgcolor='#fbdc40' style='background:#fbdc40' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 8 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-							 id="slide-331-layer-1"
-							 data-x="['center','center','center','center']" data-hoffset="['-250','-200','-180','-117']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-60','20','50','39']"
-										data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="image"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":800,"speed":1000,"frame":"0","from":"rX:90deg;sX:1;sY:1;skY:-10px;opacity:0;","to":"o:1;tO:50% 100%;z:-5;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 5;"><img src="include/rs-plugin/demos/assets/images/funky2.jpg" alt="" data-ww="['500px','400px','300px','200px']" data-hh="['824px','659px','494px','329px']" data-no-retina> </div>
-
-						<!-- LAYER NR. 9 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
-							 id="slide-331-layer-4"
-							 data-x="['left','left','left','left']" data-hoffset="['605','457','334','30']"
-							 data-y="['top','top','top','top']" data-voffset="['47','52','49','30']"
-										data-fontsize="['45','40','30','30']"
-							data-lineheight="['45','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"x:-200px;sX:1;sY:1;opacity:0;","to":"o:1;rZ:-2;","ease":"Power4.easeOut"},{"delay":"wait","speed":650,"frame":"999","to":"x:-200px;opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,7,7]"
-							data-paddingright="[20,20,20,20]"
-							data-paddingbottom="[10,10,10,10]"
-							data-paddingleft="[20,20,20,20]"
-
-							style="z-index: 6; white-space: nowrap; font-size: 45px; line-height: 45px; font-weight: 600; color: #fbdc40; letter-spacing: 0px;font-family:Oswald;background-color:rgb(48,3,6);">
-				<div class="rs-looped rs-wave"  data-speed="2" data-angle="0" data-radius="2px" data-origin="50% 50%">ALL YOUR  <span style="color:#f62661;">BILLS</span> IN ONE PLACE </div></div>
-
-						<!-- LAYER NR. 10 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
-							 id="slide-331-layer-5"
-							 data-x="['left','left','left','left']" data-hoffset="['629','476','349','40']"
-							 data-y="['top','top','top','top']" data-voffset="['106','103','94','70']"
-										data-fontsize="['45','40','30','30']"
-							data-lineheight="['45','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"x:200px;sX:1;sY:1;opacity:0;","to":"o:1;rZ:-2;","ease":"Power4.easeOut"},{"delay":"wait","speed":650,"frame":"999","to":"x:200px;opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,7,7]"
-							data-paddingright="[20,20,20,20]"
-							data-paddingbottom="[10,10,10,10]"
-							data-paddingleft="[20,20,20,20]"
-
-							style="z-index: 7; white-space: nowrap; font-size: 45px; line-height: 45px; font-weight: 600; color: #fbdc40; letter-spacing: 0px;font-family:Oswald;background-color:rgb(48,3,6);">
-				<div class="rs-looped rs-wave"  data-speed="2" data-angle="0" data-radius="2px" data-origin="50% 50%">MAKING <span style="color:#f62661;">BUDGETING EFFORTLESS</span> </div></div>
-
-						<!-- LAYER NR. 11 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-331-layer-6"
-							 data-x="['left','left','left','left']" data-hoffset="['700','600','420','230']"
-							 data-y="['top','top','top','top']" data-voffset="['240','224','188','159']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":700,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 8; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #300306; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i>
-               AUTOMATICALLY FIND<br/>
-				       BETTER DEALS ON ALL YOUR SERVICES</div>
-
-						<!-- LAYER NR. 12 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-331-layer-11"
-							 data-x="['left','left','left','left']" data-hoffset="['700','600','420','230']"
-							 data-y="['top','top','top','top']" data-voffset="['330','305','250','211']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":800,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 9; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #300306; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i>
-              ONE FORM. USE THE SAME INFO FOR EVERYONE </div>
-
-						<!-- LAYER NR. 13 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-331-layer-12"
-							 data-x="['left','left','left','left']" data-hoffset="['700','600','420','230']"
-							 data-y="['top','top','top','top']" data-voffset="['390','361','292','243']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 10; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #300306; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i> SWITCH WITH JUST ONE CLICK </div>
-
-						<!-- LAYER NR. 14 -->
-						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
-							 id="slide-331-layer-3"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-200','-220','-250']"
-										data-width="full"
-							data-height="400"
-							data-whitespace="nowrap"
-
-							data-type="shape"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 11;">
-				<div class="tp-element-background" style=" background: url('include/rs-plugin/demos/assets/images/funky_paint-4.png') repeat-x center top; background-size: contain; opacity: 1;"></div> </div>
-
-						<!-- LAYER NR. 15 -->
-						<a a href="/how_it_works.html" target="_self" class="tp-caption rev-btn  tp-resizeme"
-							 id="slide-331-layer-7"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','30','30','30']"
-										data-fontsize="['25','25','20','20']"
-							data-lineheight="['60','60','50','50']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="button"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"rX:90deg;sX:1;sY:1;opacity:0;","to":"o:1;tO:50% 0%;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(48,3,6);bs:solid;bw:0 0 0 0;"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[3,3,3,3]"
-							data-paddingright="[50,50,40,40]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[50,50,40,40]"
-
-              style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 60px; font-weight: 600; color: rgba(255,255,255,1); letter-spacing: px;font-family:'Courier New', Courier, monospace;background-color:rgb(246,38,97);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-              FIND OUT MORE</a>
-					</li>
-					<!-- SLIDE  -->
-					<li data-index="rs-332" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="include/rs-plugin/demos/assets/images/transparent.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-						<!-- MAIN IMAGE -->
-						<img src="include/rs-plugin/demos/assets/images/transparent.png" data-bgcolor='#16f971' style='background:#16f971' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 17 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-							 id="slide-332-layer-1"
-							 data-x="['center','center','center','center']" data-hoffset="['259','220','165','103']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-40','23','83','52']"
-										data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="image"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":800,"speed":1000,"frame":"0","from":"rX:90deg;sX:1;sY:1;skY:10px;opacity:0;","to":"o:1;tO:50% 100%;z:-5;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 5;"><img src="include/rs-plugin/demos/assets/images/funky3.jpg" alt="" data-ww="['500px','400px','300px','200px']" data-hh="['818px','654px','491px','327px']" data-no-retina> </div>
-
-						<!-- LAYER NR. 18 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
-							 id="slide-332-layer-4"
-							 data-x="['left','left','left','left']" data-hoffset="['50','50','40','30']"
-							 data-y="['top','top','top','top']" data-voffset="['50','50','40','30']"
-										data-fontsize="['45','40','30','30']"
-							data-lineheight="['45','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"x:-200px;sX:1;sY:1;opacity:0;","to":"o:1;rZ:-2;","ease":"Power4.easeOut"},{"delay":"wait","speed":650,"frame":"999","to":"x:-200px;opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,7,7]"
-							data-paddingright="[20,20,20,20]"
-							data-paddingbottom="[10,10,10,10]"
-							data-paddingleft="[20,20,20,20]"
-
-							style="z-index: 6; white-space: nowrap; font-size: 45px; line-height: 45px; font-weight: 600; color: #0048ff; letter-spacing: 0px;font-family:Oswald;background-color:rgb(0,0,0);">
-        <div class="rs-looped rs-wave"  data-speed="2" data-angle="0" data-radius="2px" data-origin="50% 50%">STAY  <span style="color:#16f971;">
-          IN </span> CONTROL </div></div>
-
-						<!-- LAYER NR. 19 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
-							 id="slide-332-layer-5"
-							 data-x="['left','left','left','left']" data-hoffset="['70','70','55','40']"
-							 data-y="['top','top','top','top']" data-voffset="['104','100','80','70']"
-										data-fontsize="['45','40','30','30']"
-							data-lineheight="['45','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"x:200px;sX:1;sY:1;opacity:0;","to":"o:1;rZ:-2;","ease":"Power4.easeOut"},{"delay":"wait","speed":650,"frame":"999","to":"x:200px;opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,7,7]"
-							data-paddingright="[20,20,20,20]"
-							data-paddingbottom="[10,10,10,10]"
-							data-paddingleft="[20,20,20,20]"
-
-							style="z-index: 7; white-space: nowrap; font-size: 45px; line-height: 45px; font-weight: 600; color: #0048ff; letter-spacing: 0px;font-family:Oswald;background-color:rgb(0,0,0);">
-				<div class="rs-looped rs-wave"  data-speed="2" data-angle="0" data-radius="2px" data-origin="50% 50%">
-          WITH <span style="color:#16f971;"> OUR MONTHLY SUMMARY</span> </div></div>
-
-						<!-- LAYER NR. 20 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-332-layer-11"
-							 data-x="['left','left','left','left']" data-hoffset="['130','150','100','30']"
-							 data-y="['top','top','top','top']" data-voffset="['240','234','190','150']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":700,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 8; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #000000; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i>
-              ALL YOUR BILLS AND SERVICES, SUMMARISED </div>
-
-						<!-- LAYER NR. 21 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-332-layer-12"
-							 data-x="['left','left','left','left']" data-hoffset="['130','150','100','30']"
-							 data-y="['top','top','top','top']" data-voffset="['300','290','232','182']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":800,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 9; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #000000; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i>
-              EVERY MONTH, THROUGH YOUR LETTERBOX </div>
-
-						<!-- LAYER NR. 22 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-332-layer-13"
-							 data-x="['left','left','left','left']" data-hoffset="['130','150','100','30']"
-							 data-y="['top','top','top','top']" data-voffset="['361','346','274','214']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 10; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #000000; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i>
-              THATS RIGHT, AN<br/>ACTUAL OLDSCHOOL LETTER </div>
-
-						<!-- LAYER NR. 23 -->
-						<div class="tp-caption   tp-resizeme rs-parallaxlevel-11"
-							 id="slide-332-layer-14"
-							 data-x="['left','left','left','left']" data-hoffset="['130','150','100','30']"
-							 data-y="['top','top','top','top']" data-voffset="['451','427','336','266']"
-										data-fontsize="['25','20','15','15']"
-							data-lineheight="['30','25','20','20']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":1000,"speed":1000,"frame":"0","from":"y:50px;z:0;rX:45deg;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:-10px;opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-              style="z-index: 11; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 500; color: #000000; letter-spacing: 0px;font-family:Oswald;"><i class="fa-icon-star" style="margin:5px 10px 40px 0px;float:left;"></i> 
-              NEED PROOF OF ADDRESS? YOU'RE SORTED </div>
-
-						<!-- LAYER NR. 24 -->
-						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
-							 id="slide-332-layer-3"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-200','-220','-250']"
-										data-width="full"
-							data-height="400"
-							data-whitespace="nowrap"
-
-							data-type="shape"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-
-							style="z-index: 12;">
-				<div class="tp-element-background" style=" background: url('include/rs-plugin/demos/assets/images/funky_paint-4.png') repeat-x center top; background-size: contain; opacity: 1;"></div> </div>
-
-						<!-- LAYER NR. 25 -->
-						<div class="tp-caption rev-btn  tp-resizeme"
-							 id="slide-332-layer-7"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','30','30','30']"
-										data-fontsize="['25','25','20','20']"
-							data-lineheight="['60','60','50','50']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="button"
-							data-basealign="slide"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"rX:90deg;sX:1;sY:1;opacity:0;","to":"o:1;tO:50% 0%;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgb(0,0,0);bs:solid;bw:0 0 0 0;"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[3,3,3,3]"
-							data-paddingright="[50,50,40,40]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[50,50,40,40]"
-
-              style="z-index: 13; white-space: nowrap; font-size: 25px; line-height: 60px; font-weight: 600; color: rgba(255,255,255,1); letter-spacing: px;font-family:'Courier New', Courier, monospace;background-color:rgb(0,72,255);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-              SIGN UP NOW </div>
-
-						<!-- LAYER NR. 26 -->
-						<div class="tp-caption   tp-resizeme"
-							 id="slide-332-layer-9"
-							 data-x="['center','center','center','center']" data-hoffset="['170','170','130','130']"
-							 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['90','70','70','70']"
-										data-fontsize="['40','40','30','30']"
-							data-lineheight="['40','40','30','30']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-
-							data-type="text"
-							data-responsive_offset="on"
-
-							data-frames='[{"delay":1600,"speed":1000,"frame":"0","from":"rX:90deg;opacity:0;","to":"o:1;tO:50% 0%;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[5,5,5,5]"
-							data-paddingright="[10,10,10,10]"
-							data-paddingbottom="[0,0,2,2]"
-							data-paddingleft="[10,10,10,10]"
-
-							style="z-index: 14; white-space: nowrap; font-size: 40px; line-height: 40px; font-weight: 600; color: #000000; letter-spacing: 0px;font-family:'Courier New', Courier, monospace;background-color:rgb(22,249,113);">FREE </div>
-					</li>
-				</ul>
-				<div class="tp-bannertimer" style="height: 10px; background: rgba(0,0,0,0.05);"></div>	</div>
-			</div><!-- END REVOLUTION SLIDER -->
-
-		</section>
+		<section id="slider" class="slider-element dark min-vh-100 include-header" style="background-image: url('images/hero/1.svg');">
+			<div class="slider-inner flex-column">
+
+				<div class="vertical-middle">
+					<div class="container">
+						<div class="row align-items-lg-center no-gutters">
+
+							<div class="col-lg-6 col-md-6">
+								<h2 class="display-3 font-weight-bold text-white">Kick Bills <br>Up The Ass.</h2>
+								<p class="lead mb-4 font-weight-normal">We take the donkey work out of managing your services.</p>
+								<div>
+									<a href="#" class="btn mt-2 text-dark bg-warning rounded-lg px-4 py-3 nott ls0 shadow-sm"></i>Start for Free</a>
+								</div>
+							</div>
+
+							<div class="col-lg-1 d-md-none d-lg-block"></div>
+
+							<div class="col-lg-5 col-md-6 align-self-lg-end">
+								<div class="slide-imgs">
+									<img src="images/hero/1-2.png" alt="Image" class="card-img">
+									<img src="images/hero/1-1.png" alt="Image" class="iphone-img">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="section-clients">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-md-7 d-flex align-items-lg-center flex-row">
+								<div class="col"><img src="images/clients/Virgin_Media_logo.png" alt="Services"></div>
+								<div class="col"><img src="images/clients/AES_logo.png" alt="Services"></div>
+								<div class="col"><img src="images/clients/Liberty_Insurance_logo.png" alt="Services"></div>
+								<div class="col"><img src="images/clients/Electric_Ireland_logo.png" alt="Services"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- #slider end -->
 
 		<!-- Content
 		============================================= -->
-		<!-- <section id="content">
-			<div class="content-wrap">
-				<div id="features" class="container clearfix">
-					Add some content here
+		<section id="content">
+			<div class="content-wrap pb-0">
+
+				<div class="container">
+					<div class="mx-auto center mt-4 bottommargin heading-block" style="max-width: 640px;">
+						<h5 class="text-uppercase ls1 text-muted mb-3">Why?</h5>
+						<h2 class="nott mb-4">Bills! Bills! Bills!</h2>
+						<p class="lead font-weight-normal font-primary mb-5">Why should handling 
+              your bills be such a pain in the ass?
+            </p>
+					</div>
+
+					<div class="features-items mx-auto" style="max-width: 1000px;">
+						<div class="row justify-content-around">
+							<div class="col-md-5 bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-icon">
+										<i class="icon-calendar1 text-primary"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">When do your bills get paid?</h2>
+										<div class="lead font-weight-normal text-black-50">You check your bank account. It looks good. Enough to buy That Thing You've Had Your Eye On. But wait! Does your electricity bill come out of your account tomorrow? Or next month?</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-5 bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-icon">
+										<i class="icon-recycle text-danger"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">Switching? Not fun</h2>
+										<div class="lead font-weight-normal text-black-50">
+                      Want to get a better deal? No problem! Just find a printed bill, your passport, the middle name of your first pet and your 95-digit bank account number. Every. Single. Time. You. Switch.
+                    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-around">
+							<div class="col-md-5 bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-icon">
+										<i class="icon-line2-shield text-warning"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">My password? Why certainly!</h2>
+										<div class="lead font-weight-normal text-black-50">
+                      The best thing about being an adult is logging in to twenty different billing websites, while definitely not using the same password for security reasons. Can't sign in? Wait, who are you with for car insurance this year? Not them.
+                    </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-5 bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-icon">
+										<i class="icon-line2-notebook text-info"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">Maybe we like filling in forms?</h2>
+										<div class="lead font-weight-normal text-black-50">
+                      Sure don't we all like to fill in forms? Name, address, email, sorted. New service? Name, address, email. Change utility provider? Name, address, email. Move home? No problem, just fill them out all over again!
+                    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
+				<div class="clear"></div>
+
+				<div class="row align-items-stretch align-content-stretch no-gutters topmargin">
+
+					<div class="col-md-6 order-md-2" style="background: url('images/section/a_donk_in_the_hand.jpg') center center / cover; min-height: 300px"></div>
+
+					<div class="col-md-6 bg-color dark order-md-1">
+						<div class="section-features">
+							<h2 class="mb-3 h4 font-weight-semibold">Everything in one place</h2>
+							<p class="h6 font-weight-normal mb-5">There's your calendar, so you can see what bills are due soon. Here's the contact details and account number for when you need to phone a service provider.<BR>
+              It's like a supermarket for your services. Without the dodgy background music.</p>
+
+							<h2 class="mb-3 h4 font-weight-semibold">Switching done properly</h2>
+							<p class="h6 font-weight-normal">
+                We find better deals, and we'll let you know the best options at the end of your contract. Then it's Tippy Tap and you're done. No forms to fill in. Still have access to all your old bills if you need to.
+              </p>
+              <BR>
+
+							<h2 class="mb-3 h4 font-weight-semibold">Move Home? Switch Banks? New Husband?</h2>
+							<p class="h6 font-weight-normal mb-0">It's not every day you move home or change your bank. But when you do, it's a nightmare handling all your bills. We handle the donkey work, so you can focus on you the important stuff.
+              <BR>
+              (Sorry, we can't help with switching husbands)</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="section m-0 bg-transparent pb-0" style="padding-top: 100px;">
+					<div class="container clearfix">
+						<div class="row">
+							<div class="col-lg-6 mb-5">
+								<h2 class="font-weight-bold h2 mb-4">What is Donkie?</h2>
+								<p class="font-weight-normal mb-2 h6 text-muted">
+                   We make it easy to see all your services and bills in one place.
+
+								<div class="row my-5">
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-calendar1 text-primary"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Calendar</h3>
+												<p>See what bills are due throughout the month, and never be caught on the hop again. You can even set up alerts, so you're always in control.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-notebook text-warning"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Details Book</h3>
+												<p>When you need to call a service provider, we've got the contact numbers and email addresses, and your account number right at your fingertips. Add notes here, so you don't forget what they said on the call.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-files text-danger"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Bill Archive</h3>
+												<p>We keep all your bills where you can find them, forever, even when you switch service providers. We even show you how your spending has changed over time, if that's your kind of thing.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-1"></div>
+
+							<div class="col-lg-5 d-flex align-items-end">
+								<div class="device-video-wrap">
+									<img src="images/iphone-hand.png" alt="Image">
+									<video poster="images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
+										<source src='images/form-video.mp4' type='video/mp4' />
+									</video>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="pricing" class="section m-0 parallax" style="padding: 100px 0; background-color:rgb(61,128,228);" data-0-top="background-color:rgb(61,128,228);" data-center-bottom="background-color:rgb(0,0,0);">
+					<div class="container">
+						<div class="row justify-content-between">
+							<div class="col-xl-4 col-lg-5 col-md-6 dark dotted-bg">
+								<div class="heading-block border-bottom-0 bottommargin-sm">
+									<i class="icon-credit h1"></i>
+									<h2 class="nott" style="font-size: 36px;">Simple Pricing. <br>Choose Your Plan.</h2>
+								</div>
+								<div class="font-weight-normal lead">Our plans are designed around you, and you'll always be in control.</div>
+
+								<!-- <p class="text-white-50 mt-5">During Free trail you won't be charge and you can freely use this app without <a href="#" class="text-white"><u>Terms and Condtions</u></a>.</p> -->
+							</div>
+							<div class="col-lg-7 col-md-6">
+								<div class="row">
+									<div class="col-lg-6 pricing-table">
+										<div class="card shadow" style="background-image: url('images/section/pricing-bg-light.svg'); background-position: 0 100%; background-size: 100% 290px;">
+											<h5 class="text-uppercase ls1 mb-2">Basic</h5>
+											<h2 class="ls0 font-weight-bold mb-3">Free</h2>
+                      <BR>
+                          <p class="mb-5 text-black-50">Get started with our basic plan, and see how we get your services under control.</p>
+											<ul class="iconlist">
+												<li><i class="icon-check-circle color"></i>Free Forever</li>
+												<li><i class="icon-check-circle color"></i>Unlimited Services</li>
+												<li><i class="icon-check-circle color"></i>Bill Calendar</li>
+												<li><i class="icon-check-circle color"></i>Details Book</li>
+												<li><i class="icon-check-circle color"></i>Bill Archive</li>
+											</ul>
+											<a href="#" class="btn btn-block text-white bg-color rounded-lg p-3 font-weight-semibold text-uppercase">Start Free</a>
+										</div>
+									</div>
+
+									<div class="col-lg-6 pricing-table mt-4 mt-lg-0">
+										<div class="card shadow" style="background-image: url('images/section/pricing-bg.svg');">
+											<h5 class="text-uppercase ls1 text-white-50 mb-2">Pro</h5>
+											<h2 class="ls0 font-weight-bold mb-5 text-white">&euro;6/month</h2>
+											<p class="mt-2 text-black-50">Take full control of all your bills, with all of our pro features, and never look back.</p>
+											<ul class="iconlist">
+												<li><i class="icon-check-circle color"></i>Calendar Alerts</li>
+												<li><i class="icon-check-circle color"></i>Add Notes in Details Book</li>
+												<li><i class="icon-check-circle color"></i>Auto-Fetch Bills</li>
+												<li><i class="icon-check-circle color"></i>Track spending over time</li>
+												<li><i class="icon-check-circle color"></i>Switching (coming soon)</li>
+											</ul>
+											<a href="#" class="btn btn-block text-white bg-color rounded-lg p-3 font-weight-semibold text-uppercase">Purchase Pro</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+        <div class="section m-0 bg-transparent pb-0" style="padding-top: 100px;">
+          <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+              <img src="images/section/2.jpg" alt="Image">
+            </div>
+
+            <div class="col-md-6 offset-lg-1">
+              <div class="heading-block border-bottom-0 mb-4">
+                <i class="icon-lightbulb1 h1 color"></i>
+                <h3 class="nott ls0">How it Works.</h3>
+              </div>
+              <p class="font-weight-normal lead">Our Pro plan allows you to automagically pull your bills into your dashboard, which makes everything ridonkulously simple.</p>
+              <p class="font-weight-normal lead">We securely connect with online portals using our proprietary technology, which means you only ever need to remember one password.</p>
+              <div class="clear"></div>
+
+              
+
+              <a href="#" class="btn text-white bg-color rounded-lg px-4 py-3 font-weight-semibold text-uppercase shadow-sm">Learn More <i class="icon-line-arrow-right ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
 			</div>
-		</section>#content end -->
+
+		</section><!-- #content end -->
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark">
+		<footer id="footer" class="bg-white border-0">
 
-			<div class="container">
 
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
 
-					<div class="col_two_third">
+			<div id="copyrights" class="bg-color dark py-5">
+				<div class="container">
 
-						<div class="col_one_third">
-
-							<div class="widget clearfix">
-
-								<img src="images/donk_small.png" alt="" class="footer-logo">
-
-								<p>We believe <strong>Simple</strong>, <strong>Reliable</strong> &amp; <strong>Useful</strong> makes life better for all of us.</p>
-
-                <div class="mypanel"></div>
-              </div>
-              
-              <script>
-                fetch('https://hook.integromat.com/fjjyd47f5aq7g4hru9255grrwy3awyjc',
-                {
-                  method: "GET",
-                  headers: { "Content-Type": "application/json"}
-                }).then(function(response){
-                  return response.json();
-                }).then((json) => {
-                  $(".mypanel").html("Join " + json.count + " donkers");
-                }).catch(err => console.error(err));
-              </script>
-
+          
+					<div class="row col-mb-30">
+						<div class="col-md-6 text-center text-md-left">
+							Copyright Donkie &copy; 2021 All Rights Reserved<br>
+							<div class="copyright-links"><a href="#" class="text-white-50">Terms of Use</a> / <a href="#" class="text-white-50">Privacy Policy</a></div>
 						</div>
 
-						<div class="col_one_third">
-
-							<div class="widget widget_links clearfix">
-
-								<h4>INFO</h4>
-
-								<ul>
-									<li><a href="how_it_works.html">How it Works</a></li>
-									<li><a href="#">Services we Support</a></li>
-									<li><a href="#">Pricing</a></li>
-									<li><a href="#">About Us</a></li>
-								</ul>
-
-							</div>
-
+						<div class="col-md-6 text-center text-md-right">
+							
+							
 						</div>
-
-						<div class="col_one_third col_last">
-
-							<!-- <div class="widget clearfix">
-                
-                  <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/DonkIreland?ref_src=twsrc%5Etfw">Tweets by DonkIreland</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                
-                
-							</div> -->
-              <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-									<address>
-										<strong>Donk Ireland</strong><br>
-										Registered Business Address<br>
-										Dublin, Ireland<br>
-									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> 01 000 0000 <br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> Seriously? No.<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> dave@donk.ie
-                </div>
-                
-						</div>
-
-					</div>
-
-					<div class="col_one_third col_last">
-
-						<div class="widget subscribe-widget clearfix">
-              <h5><strong>Sign up</strong> to let us take the donkey work out of your bills:</h5>
-              
-              <div class="widget-subscribe-form-result"></div>
-              
-              <form action="https://gingertechie.us12.list-manage.com/subscribe/post?u=1be03f75214537b90ddfc5a93&amp;id=1f629b0c7d" method="post" 
-              id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate nobottommargin" target="_blank" novalidate>
-
-								<div class="input-group divcenter">
-
-									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="icon-email2"></i></div>
-                  </div>
-                  
-                  <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" 
-                  placeholder="Enter your Email">
-
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                      <input type="text" name="b_1be03f75214537b90ddfc5a93_1f629b0c7d" tabindex="-1" value="">
-                    </div>
-  
-									<div class="input-group-append">
-                    <button class="btn btn-success" type="submit">Sign up</button>
-                    
-									</div>
-								</div>
-              </form>
-
-						</div>
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-							</div>
-
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-
-				<div class="container clearfix">
-
-					<div class="col_half">
-						Copyright &copy; 2019 All Rights Reserved by Ginger Software Development Services Limited<br>
-						<div class="copyright-links">
-                <a href="terms.html">Terms of Use</a> / 
-                <a href="privacy.html">Privacy Policy</a>
-              </div>
-            </div>
-
-					<div class="col_half col_last tright">
-							<a href="https://twitter.com/DonkIreland" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-              <i class="icon-envelope2"></i> dave@donk.ie              
-						</div>
-
-						<div class="clear"></div>
-
-						
 					</div>
 
 				</div>
-
-			</div><!-- #copyrights end -->
+			</div>
 
 		</footer><!-- #footer end -->
 
@@ -903,126 +399,22 @@
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
 
-	<!-- External JavaScripts
+	<!-- JavaScripts
 	============================================= -->
 	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
+	<script src="js/plugins.min.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
 
-	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="include/rs-plugin/js/addons/revolution.addon.typewriter.min.js"></script>
-	<script src="include/rs-plugin/js/addons/revolution.addon.revealer.min.js"></script>
-	<!-- SLIDER REVOLUTION EXTENSIONS  -->
-	<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-
-	<!-- ADD-ONS JS FILES -->
 	<script>
-		var revapi134,
-			tpj;
-			(function() {
-				if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();
-
-				function onLoad() {
-					if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
-							if(tpj("#rev_slider_134_1").revolution == undefined){
-								revslider_showDoubleJqueryError("#rev_slider_134_1");
-							}else{
-								revapi134 = tpj("#rev_slider_134_1").show().revolution({
-									sliderType:"standard",
-									jsFileLocation:"include/rs-plugin/js/",
-									sliderLayout:"fullwidth",
-									dottedOverlay:"none",
-									delay:9000,
-						revealer: {
-							direction: "tlbr_skew",
-							color: "#ffffff",
-							duration: "1500",
-							delay: "0",
-							easing: "Power3.easeOut",
-							spinner: "2",
-							spinnerColor: "rgba(0,0,0,",
-						},
-									navigation: {
-										keyboardNavigation:"off",
-										keyboard_direction: "horizontal",
-										mouseScrollNavigation:"off",
-										 mouseScrollReverse:"default",
-										onHoverStop:"off",
-										arrows: {
-											style:"uranus",
-											enable:true,
-											hide_onmobile:false,
-											hide_onleave:false,
-											tmp:'',
-											left: {
-												h_align:"left",
-												v_align:"center",
-												h_offset:20,
-												v_offset:50
-											},
-											right: {
-												h_align:"right",
-												v_align:"center",
-												h_offset:20,
-												v_offset:50
-											}
-										}
-									},
-									responsiveLevels:[1240,1024,778,480],
-									visibilityLevels:[1240,1024,778,480],
-									gridwidth:[1240,1024,778,480],
-									gridheight:[800,700,600,500],
-									lazyType:"none",
-									parallax: {
-										type:"scroll",
-										origo:"slidercenter",
-										speed:400,
-									  speedbg:0,
-									  speedls:0,
-										levels:[5,10,15,20,25,30,35,40,45,-10,-15,-20,-25,50,51,55],
-									},
-									shadow:0,
-									spinner:"spinner5",
-									stopLoop:"off",
-									stopAfterLoops:-1,
-									stopAtSlide:-1,
-									shuffle:"off",
-									autoHeight:"off",
-									hideThumbsOnMobile:"off",
-									hideSliderAtLimit:0,
-									hideCaptionAtLimit:0,
-									hideAllCaptionAtLilmit:0,
-									debugMode:false,
-									fallbacks: {
-										simplifyAll:"off",
-										nextSlideOnWindowFocus:"off",
-										disableFocusListener:false,
-									}
-								});
-				}; /* END OF revapi call */
-
-							RsTypewriterAddOn(tpj, revapi134);
-
-				RsRevealerAddOn(tpj, revapi134, "<div class='rsaddon-revealer-spinner rsaddon-revealer-spinner-2'><div class='rsaddon-revealer-2' style='border-top-color: {{color}}0.65); border-bottom-color: {{color}}0.15); border-left-color: {{color}}0.65); border-right-color: {{color}}0.15)'><\/div><\/div>");
-			 }; /* END OF ON LOAD FUNCTION */
-		}()); /* END OF WRAPPING FUNCTION */
+		jQuery(window).on( 'pluginCarouselReady', function(){
+			setTimeout( function(){
+				$('.owl-stage').after('<div class="owl-stage-outer-bg"></div>');
+			}, 1000 );
+		});
 	</script>
 
-  <!-- Other scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-  
 </body>
 </html>
